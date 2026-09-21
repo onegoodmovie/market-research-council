@@ -1,0 +1,31 @@
+{
+  "symbol": "DEMO",
+  "as_of": "2026-09-18",
+  "price": {
+    "previous_close": 100.0,
+    "open": 100.4,
+    "high": 104.2,
+    "low": 99.8,
+    "close": 103.9,
+    "quality": 1.0
+  },
+  "volatility": {
+    "atm_level": 31.2,
+    "atm_change": 0.55,
+    "risk_reversal_change": -0.8,
+    "strike_migration": true,
+    "quality": 0.9
+  },
+  "positioning": {
+    "short_dated_share": 0.74,
+    "eight_plus_dte_call_put_ratio": 1.62,
+    "t_minus_one_oi_confirmation": 0.24,
+    "oi_is_lagged": true,
+    "quality": 0.85
+  },
+  "macro": {
+    "event": "synthetic policy decision",
+    "risk_impulse": "positive",
+    "quality": 0.7
+  }
+}
